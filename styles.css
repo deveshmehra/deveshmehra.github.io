@@ -28,7 +28,6 @@ header{
     width: 100%;
     
     height: 6rem;
-    background-color: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(2rem);
 }
 
@@ -46,7 +45,7 @@ header{
 
 .nav-link{
     font-size: 2.4rem;
-    color: #fff;
+    color: black;
     padding: 0 1rem;
     transition: opacity 0.5s;
 }
@@ -67,7 +66,7 @@ header{
     letter-spacing: -.005rem;
     text-align: center;
     padding-top: .5rem;
-    background-color: white;
+    background-color: #fafafa;
 }
 
 .home-desc{
@@ -75,13 +74,11 @@ header{
     text-align: center;
     margin-top: 2rem;
     letter-spacing: .008rem;
-    color: #fff;
-    background-color: black;
-
+    color: black;
 }
 
 .home-h1-name{
-    background-color: red;
+    background-color: #00F260;
   
   /* Create the gradient. */
   background-image: linear-gradient(45deg, #00F260, #0575E6);
@@ -96,4 +93,8 @@ header{
   -webkit-text-fill-color: transparent; 
   -moz-background-clip: text;
   -moz-text-fill-color: transparent
+}
+
+body{
+    background-color: #fafafa;
 }
